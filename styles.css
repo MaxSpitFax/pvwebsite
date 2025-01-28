@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(253, 240, 56);
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.background-image {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.logo {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 80%;
+    max-width: 400px;
+}
+
+.overlay-text {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    background: rgba(219, 53, 53, 0.6);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Traffic Cones */
+.cone {
+    position: absolute;
+    width: 300px; /* Adjust size as needed */
+}
+
+.left {
+    left: -300px;
+    top: 90%;
+    transform: translateY(-50%);
+}
+
+.right {
+    right: -300px;
+    top: 90%;
+    transform: translateY(-50%);
+}
